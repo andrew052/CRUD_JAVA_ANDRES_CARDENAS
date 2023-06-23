@@ -1,0 +1,134 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #4e4d4d;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para el contenedor principal */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .chat-container {
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Estilos para el encabezado del chat */
+  .chat-header {
+    background-color: #0078ff;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .chat-header h2 {
+    margin: 0;
+  }
+  
+  /* Estilos para los mensajes del chat */
+  .chat-messages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #f7f7f7;
+  }
+  
+  .chat-messages li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  .chat-messages .received {
+    background-color: #fff;
+    float: left;
+  }
+  
+  .chat-messages .sent {
+    background-color: #0078ff;
+    color: #fff;
+    float: right;
+  }
+  
+  /* Estilos para la entrada de texto */
+  .chat-input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .chat-input textarea {
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  .chat-input .chat-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-input .send-btn {
+    background-color: #0078ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-input .photo-input {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el contenedor de grupos */
+  .group-container {
+    width: 600px;
+    margin-top: 20px;
+  }
+  
+  .group-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .group-container input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .group-container .create-group-btn {
+    background-color: #0078ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
